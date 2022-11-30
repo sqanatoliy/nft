@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-for (let i = 1; i < 30; i++){
+for (let i = 1; i < 2181; i++){
 test(`refresh metadata ${i}`, async ({ page }) => {
   const a = 10
   await page.goto('https://opensea.io/assets/matic/0x29a57599ff4df8f26115668233f276d77ff5a371/' + i);
